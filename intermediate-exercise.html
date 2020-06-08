@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employees</title>
+</head>
+<body>
+	
+	<table id="data"></table>
+
+	<script type="text/javascript" src="employee.json"></script>
+
+	<script>
+		
+		var mydata =JSON.parse(employee);
+		console.table(mydata)
+		console.log(mydata)
+
+		document.getElementById("data").innerHTML += "<table><tr>"
+			
+
+		for (var i = 0; i < mydata.length; i++) {
+
+			var x = mydata[i];
+
+			document.getElementById("data").innerHTML += "<tr><td>" + x.UniqueID + "</td></tr>" + "<tr><td>" + x.FirstName + "</td></tr>" + "<tr><td>" + x.LastName + "</td></tr>" + "<tr><td>" + x.Emailaddress + "</td></tr>" + "<tr><td>" + x.JobTitle + "</td></tr>" + "<tr><td>" + x.Salary + "</td></tr>"
+
+			/*table.innerHTML += "<tr><td>" + x.UniqueID + "</td></tr>" + "<tr><td>" + x.FirstName + "</td></tr>" + "<tr><td>" + x.LastName + "</td></tr>" + "<tr><td>" + x.Emailaddress + "</td></tr>" + "<tr><td>" + x.JobTitle + "</td></tr>" + "<tr><td>" + x.Salary + "</td></tr>"*/
+		} 
+		document.getElementById("data").innerHTML += "</tr></table>"
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+var employee = `[
+	{
+	"UniqueID" : "01",
+	"FirstName" : "Tom",
+	"LastName" : "Smith",
+	"Emailaddress" : "tom.smith@email.com",
+	"JobTitle" : "Developer",
+	"Salary" : 100000
+},
+{
+	"UniqueID" : "02",
+	"FirstName" : "Jane",
+	"LastName" : "Doe",
+	"Emailaddress" : "jane.doe@email.com",
+	"JobTitle" : "Senior Developer",
+	"Salary" : 200000
+},
+{
+	"UniqueID" : "03",
+	"FirstName" : "John",
+	"LastName" : "Doe",
+	"Emailaddress" : "john.doe@email.com",
+	"JobTitle" : "Developer",
+	"Salary" : 150000
+},
+{
+	"UniqueID" : "04",
+	"FirstName" : "Maria",
+	"LastName" : "Thompson",
+	"Emailaddress" : "maria.thompson@email.com",
+	"JobTitle" : "Junior Developer",
+	"Salary" : 80000
+},
+{
+	"UniqueID" : "05",
+	"FirstName" : "Patrick",
+	"LastName" : "Smithson",
+	"Emailaddress" : "patrick.smithson@email.com",
+	"JobTitle" : "Senior Developer",
+	"Salary" : 200000
+},
+{
+	"UniqueID" : "06",
+	"FirstName" : "Julia",
+	"LastName" : "Müller",
+	"Emailaddress" : "julia.mueller@email.com",
+	"JobTitle" : "Developer",
+	"Salary" : 1400000
+},
+{
+	"UniqueID" : "07",
+	"FirstName" : "George",
+	"LastName" : "Paulson",
+	"Emailaddress" : "george.paulson@email.com",
+	"JobTitle" : "Junior Developer",
+	"Salary" : 800000
+},
+{
+	"UniqueID" : "08",
+	"FirstName" : "Marcus",
+	"LastName" : "Black",
+	"Emailaddress" : "marcus.black@email.com",
+	"JobTitle" : "Junior Developer",
+	"Salary" : 80000
+},
+{
+	"UniqueID" : "09",
+	"FirstName" : "Lisa",
+	"LastName" : "Brown",
+	"Emailaddress" : "lisa.brown@email.com",
+	"JobTitle" : "Facility Manager",
+	"Salary" : 90000
+},
+{
+	"UniqueID" : "10",
+	"FirstName" : "Peter",
+	"LastName" : "Jackson",
+	"Emailaddress" : "peter.jackson@email.com",
+	"JobTitle" : "CEO",
+	"Salary" : 250000
+}
+]`
