@@ -1,0 +1,24 @@
+ 
+
+var books=`[{
+	"title": "Javascript for Dummies",
+   	"author": "Dummy Dumb Dumb",
+   	"img": "https://images-na.ssl-images-amazon.com/images/I/51eaWBgVUXL._SX364_BO1,204,203,200_.jpg",
+   	"read": "true"
+  } ,{
+	"title": "Java for Dummies",
+   	"author": "Dummy",
+   	"img": "https://images-na.ssl-images-amazon.com/images/I/51KmqPgtZnL._SX258_BO1,204,203,200_.jpg",
+   	"read": "false"
+  } ,{
+	"title": "HTML for Dummies",
+   	"author": "Dummy Dumb",
+   	"img": "https://images-na.ssl-images-amazon.com/images/I/51IuNDzDhwL._SX258_BO1,204,203,200_.jpg",
+   	"read": "true"
+  } ,{
+	"title": "CSS for Dummies",
+   	"author": "Dummy Dumb Dumb Dumb",
+   	"img": "https://images-na.ssl-images-amazon.com/images/I/51yq3hzshkL._SX258_BO1,204,203,200_.jpg",
+   	"read": "true"
+  } 
+]`

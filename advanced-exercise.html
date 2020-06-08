@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	
+
+	<script type="text/javascript" src="books.json"></script>
+	<script type="text/javascript">
+
+		var booklist = JSON.parse(books)
+		console.table(booklist)
+
+
+		var ulist = document.createElement('ul');
+		document.body.appendChild(ulist);
+		ulist.id = "list";
+
+
+			for (var i = 0; i < booklist.length; i++) {
+			
+
+				var licreator = document.createElement("li");
+				licreator.id = "li." + i ;
+				ulist.appendChild(licreator);
+				
+				var pcreator = document.createElement("p");
+				pcreator.id = "p." + i ;
+				licreator.appendChild(pcreator) ;
+
+				var x = booklist[i];
+
+				document.getElementById("p." + i).innerHTML += "<hr><img src=\"" + x.img + "\"><br>" + x.title + " " + x.author;
+
+				if (x.read === "true"){
+					console.log("no");
+					document.getElementById("p." + i).style.color = "blue";
+				}
+			}
+
+	</script>
+	
+</body>
+</html>
